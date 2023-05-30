@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="PT">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width,
+    initial-scale=1.0">
+    <title> Website With Login & Registration | Tutorial</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <img src="https://img3.wallspic.com/previews/1/9/2/4/4/144291/144291-city_skyline_during_night_time-x750.jpg" alt="Dark Mode"    height="absolute">
+    <img src="https://r4.wallpaperflare.com/wallpaper/645/121/155/8k-neon-4k-minimal-wallpaper-58b8d4d073cf7c7c61819fdf7560d024.jpg" alt="Day Mode" height="100">
+
+    
+    
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-size: cover;
+            background-size: center;
+        }
+    </style>
+
+    <header>
+        <h2 class="logo">LKrieger</h2>
+        <nav class="navigation">
+            <a href="Home" target="_blank" >Home</a>
+            <a href="About">About</a>
+            <a href="Serv">Services</a>
+            <a href="Cont">Contact</a>
+            <button class="btnLogin-popup">Login</button>
+            <div id="btn-switch">
+                <i class="indicator"></i>
+            </div>
+        </nav>
+    </header>
+
+    <div class="wrapper">
+        <span class="icon-close">
+            <ion-icon name="close-outline"></ion-icon></span>
+
+        <div class="form-box login">
+            <h2>Login</h2>
+            <form action="#">
+                <div class="input-box">
+                    <span class="icon">
+                        <ion-icon name="mail"></ion-icon></span>
+                    <input type="email" required>
+                    <label>Email</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon">
+                        <ion-icon name="lock-closed"></ion-icon>
+                    </span>
+                    <input type="password" required>
+                    <label>Password</label>
+                </div>
+                <div class="remember-forgot">
+                    <label><input type="checkbox">
+                        Remember Me</label>
+                        <a href="#">Forgot Password?</a>
+                </div>
+                <button type="Submit" class="btn">Login</button>
+                <div class="login-register">
+                    <p>Don't have an account?
+                        <a href="#"
+                        class="register-link">Register</a>
+                    </p>
+                </div>
+            </form>
+        </div>
+        <div class="form-box register">
+            <h2>Registration</h2>
+            <form action="#">
+                <div class="input-box">
+                    <span class="icon">
+                        <ion-icon name="mail"></ion-icon>
+                    </span>
+                    <input type="registration-mail" required>
+                    <label>Email</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon">
+                        <ion-icon name="person"></ion-icon></span>
+                    <input type="text" required>
+                    <label>Username</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon">
+                        <ion-icon name="lock-closed"></ion-icon>
+                    </span>
+                    <input type="registration-pass" required>
+                    <label>Password</label>
+                </div>
+                <div class="agree-terms">
+                    <label><input type="checkbox">
+                        I agree to the Terms & Conditions.</label>
+                </div>
+                <button type="Submit" class="btn">Register</button>
+                <div class="login-register">
+                    <p>Already registered?
+                        <a href="#" class="login-link">Get Login</a>
+                    </p>
+                </div>
+            </form>
+        </div>
+
+    <script src="script.js"></script>
+</div>
+<script src="https://unpkg.com/ionicons@latest/dist/ionicons.js"></script>
+
+</body>
+</html>
